@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA5D133AC22C20C3B8E49B2 /* Pods_ImagesTo3DModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5D22149DA5F82ED66DD425 /* Pods_ImagesTo3DModel.framework */; };
+		B3026E0E296888BC00CDC367 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3026E0D296888BC00CDC367 /* FirebaseHelper.swift */; };
+		B32B8DA629701FFD00888CA2 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B311EB8929670B7600C20A11 /* GoogleService-Info.plist */; };
+		B32B8DA72970201400888CA2 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B3DA34042967101600DE1321 /* Info.plist */; };
+		B3AB30F2296DB4DF00805986 /* ImageAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB30F1296DB4DF00805986 /* ImageAttributes.swift */; };
+		B3C67908296AA89900A42476 /* ModelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C67907296AA89900A42476 /* ModelGenerator.swift */; };
+		B3C6790A296AAB8200A42476 /* FileManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C67909296AAB8200A42476 /* FileManagerHelper.swift */; };
+		B3C6790C296AAD1900A42476 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C6790B296AAD1900A42476 /* Model.swift */; };
+		B3C6790E296AAD6F00A42476 /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C6790D296AAD6F00A42476 /* ImageResponse.swift */; };
+		B3E97FAD2961B38100E87135 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E97FAC2961B38100E87135 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3E97FA72961B38100E87135 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CBD9B400462D89165BC0351 /* Pods-ImagesTo3DModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagesTo3DModel.debug.xcconfig"; path = "Target Support Files/Pods-ImagesTo3DModel/Pods-ImagesTo3DModel.debug.xcconfig"; sourceTree = "<group>"; };
+		7E5D22149DA5F82ED66DD425 /* Pods_ImagesTo3DModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagesTo3DModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC7BD70B23961DC9DC0740 /* Pods-ImagesTo3DModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagesTo3DModel.release.xcconfig"; path = "Target Support Files/Pods-ImagesTo3DModel/Pods-ImagesTo3DModel.release.xcconfig"; sourceTree = "<group>"; };
+		B3026E0D296888BC00CDC367 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		B311EB8929670B7600C20A11 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3AB30F1296DB4DF00805986 /* ImageAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAttributes.swift; sourceTree = "<group>"; };
+		B3C67907296AA89900A42476 /* ModelGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGenerator.swift; sourceTree = "<group>"; };
+		B3C67909296AAB8200A42476 /* FileManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerHelper.swift; sourceTree = "<group>"; };
+		B3C6790B296AAD1900A42476 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B3C6790D296AAD6F00A42476 /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
+		B3DA34042967101600DE1321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E97FA92961B38100E87135 /* ImagesTo3DModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImagesTo3DModel; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E97FAC2961B38100E87135 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E97FA62961B38100E87135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA5D133AC22C20C3B8E49B2 /* Pods_ImagesTo3DModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD6C877AE73D73FDC5BEB36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D22149DA5F82ED66DD425 /* Pods_ImagesTo3DModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89E1B5FA716688D1E3D9A73D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CBD9B400462D89165BC0351 /* Pods-ImagesTo3DModel.debug.xcconfig */,
+				ACAC7BD70B23961DC9DC0740 /* Pods-ImagesTo3DModel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3AB30F3296DB8F800805986 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B3C6790B296AAD1900A42476 /* Model.swift */,
+				B3C6790D296AAD6F00A42476 /* ImageResponse.swift */,
+				B3AB30F1296DB4DF00805986 /* ImageAttributes.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B3E97FA02961B38100E87135 = {
+			isa = PBXGroup;
+			children = (
+				B3E97FAB2961B38100E87135 /* ImagesTo3DModel */,
+				B3E97FAA2961B38100E87135 /* Products */,
+				89E1B5FA716688D1E3D9A73D /* Pods */,
+				2CD6C877AE73D73FDC5BEB36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E97FAA2961B38100E87135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E97FA92961B38100E87135 /* ImagesTo3DModel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E97FAB2961B38100E87135 /* ImagesTo3DModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB30F3296DB8F800805986 /* Data */,
+				B3E97FAC2961B38100E87135 /* main.swift */,
+				B3C67907296AA89900A42476 /* ModelGenerator.swift */,
+				B3026E0D296888BC00CDC367 /* FirebaseHelper.swift */,
+				B3C67909296AAB8200A42476 /* FileManagerHelper.swift */,
+				B311EB8929670B7600C20A11 /* GoogleService-Info.plist */,
+				B3DA34042967101600DE1321 /* Info.plist */,
+			);
+			path = ImagesTo3DModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E97FA82961B38100E87135 /* ImagesTo3DModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E97FB02961B38100E87135 /* Build configuration list for PBXNativeTarget "ImagesTo3DModel" */;
+			buildPhases = (
+				F11CFACC3352D6A17FE3AEB6 /* [CP] Check Pods Manifest.lock */,
+				B3E97FA52961B38100E87135 /* Sources */,
+				B3E97FA62961B38100E87135 /* Frameworks */,
+				B3E97FA72961B38100E87135 /* CopyFiles */,
+				EDA4CD7B0B7C178F1DA68D0B /* [CP] Copy Pods Resources */,
+				B32B8DA329701FCA00888CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagesTo3DModel;
+			productName = ImagesTo3DModel;
+			productReference = B3E97FA92961B38100E87135 /* ImagesTo3DModel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E97FA12961B38100E87135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B3E97FA82961B38100E87135 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B3E97FA42961B38100E87135 /* Build configuration list for PBXProject "ImagesTo3DModel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3E97FA02961B38100E87135;
+			productRefGroup = B3E97FAA2961B38100E87135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E97FA82961B38100E87135 /* ImagesTo3DModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32B8DA329701FCA00888CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EDA4CD7B0B7C178F1DA68D0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagesTo3DModel/Pods-ImagesTo3DModel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagesTo3DModel/Pods-ImagesTo3DModel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImagesTo3DModel/Pods-ImagesTo3DModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11CFACC3352D6A17FE3AEB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagesTo3DModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E97FA52961B38100E87135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32B8DA72970201400888CA2 /* Info.plist in Sources */,
+				B32B8DA629701FFD00888CA2 /* GoogleService-Info.plist in Sources */,
+				B3C67908296AA89900A42476 /* ModelGenerator.swift in Sources */,
+				B3C6790E296AAD6F00A42476 /* ImageResponse.swift in Sources */,
+				B3026E0E296888BC00CDC367 /* FirebaseHelper.swift in Sources */,
+				B3E97FAD2961B38100E87135 /* main.swift in Sources */,
+				B3C6790A296AAB8200A42476 /* FileManagerHelper.swift in Sources */,
+				B3C6790C296AAD1900A42476 /* Model.swift in Sources */,
+				B3AB30F2296DB4DF00805986 /* ImageAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3E97FAE2961B38100E87135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.ImagesTo3DModel;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3E97FAF2961B38100E87135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.ImagesTo3DModel;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B3E97FB12961B38100E87135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBD9B400462D89165BC0351 /* Pods-ImagesTo3DModel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/vraj/Documents/iOS Projects/3DModelGenerator/CommaneLineToolsApp/ImagesTo3DModel/Info.plist";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.practice.ImagesTo3DModel;
+				MARKETING_VERSION = 1.0.0;
+				MODULE_NAME = com.practice.ImagesTo3DModel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.ImagesTo3DModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3E97FB22961B38100E87135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAC7BD70B23961DC9DC0740 /* Pods-ImagesTo3DModel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/vraj/Documents/iOS Projects/3DModelGenerator/CommaneLineToolsApp/ImagesTo3DModel/Info.plist";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.practice.ImagesTo3DModel;
+				MARKETING_VERSION = 1.0.0;
+				MODULE_NAME = com.practice.ImagesTo3DModel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.ImagesTo3DModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E97FA42961B38100E87135 /* Build configuration list for PBXProject "ImagesTo3DModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E97FAE2961B38100E87135 /* Debug */,
+				B3E97FAF2961B38100E87135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E97FB02961B38100E87135 /* Build configuration list for PBXNativeTarget "ImagesTo3DModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E97FB12961B38100E87135 /* Debug */,
+				B3E97FB22961B38100E87135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E97FA12961B38100E87135 /* Project object */;
+}
